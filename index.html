@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biologia e o meio ambiente</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <button onclick="alternarTema()" class="tema-bnt">🌙 Modo Escuro</button>
+  <header>
+   
+ 
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+      <form id="form-busca" class="busca">
+        <input type="text" id="campo-busca" placeholder="Buscar no blog...">
+        </form>
+    </nav>
+  </header>
+  <section class="boas-vindas">
+    <h1>Bem-vindo ao Blog Biologia e o Meio Ambiente 🌿</h1>
+    <p>Explore conteúdos sobre natureza, ciência, biomas, clima, células e muito mais!</p>
+  </section>
+  
+  
+  <main class="layout">
+      <!-- Sidebar vertical -->
+      <aside class="sidebar-vertical">
+        <h3>Menu</h3>
+        <ul>
+          <li><a href="#terra">Terra</a></li>
+          <li><a href="#biomas">Biomas</a></li>
+          <li><a href="#clima da terra">Clima</a></li>
+          <li><a href="#solo e vida">Solo</a></li>
+          <li><a href="#celulas">Células</a></li>
+          <li><a href="#galeria da natureza">Galeria</a></li>
+          <li><a href="#comentarios">Comentários</a></li>
+        </ul>
+        <h3>Você sabia?</h3>
+<div class="curiosidades" id="curiosidade-aleatoria">
+  <!-- Curiosidade será inserida aqui via JavaScript -->
+</div>
+
+        <div class="redes-sociais">
+          <h3>Siga-nos</h3>
+          <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+        
+        <h3>Sobre</h3>
+        <p>Blog sobre biologia e meio ambiente. Dedicado ao conhecimento da natureza.</p>
+      </aside>
+ 
+  <main>
+    <h1 id="terra">Terra</h1>
+    <section class="post">
+      <h2>Agua na terra</h2>
+      <img src="oceano-pacifico.jpg" alt="oceano" class="ocean">
+      <p>Um oceano é um grande corpo de água salina e um componente da hidrosfera.
+         Aproximadamente 71% da superfície da Terra
+          (uma área de 361 milhões de quilômetros quadrados)
+           é coberta pelo oceano, um contínuo corpo de água que
+            é geralmente dividido em vários oceanos principais e 
+            mares menores. Mais da metade dessa área está numa profundidade
+             maior que três mil metros. A salinidade oceânica
+              média é por volta de 35 partes por milhar (ppt) (3,5%),
+               e praticamente toda a água do mar tem uma salinidade
+                de 30 a 38 ppt. Apesar de geralmente reconhecidos como
+                 vários oceanos 'separados', essas águas formam um corpo global 
+                 interconectado de água salina por vezes chamado de Oceano Global.
+                 Esse conceito de oceano global como um corpo contínuo de água com um intercâmbio
+                  relativamente livre entre suas partes é de fundamental 
+                  importância para a oceanografia. As principais divisões
+                   oceânicas são definidas em parte pelos continentes,
+                    vários arquipélagos, e outros critérios: essas divisões são
+                     (em ordem decrescente de tamanho) o Oceano Pacífico, o Oceano Atlântico,
+                      o Oceano Índico, o Oceano Antártico e o Oceano Ártico.</p>
+    </section>
+   
+    <section class="post">
+      <h2>Atmosfera da terra</h2>
+      <img src="Top_of_Atmosphere.jpg" alt="atmosfera" class="sfera">
+      <p>A atmosfera da Terra serve como um fator principal para sustentar o ecossistema planetário.
+         A fina camada de gases que envolve a Terra é mantida no lugar pela gravidade do planeta.
+          O ar seco consiste em 78% de nitrogênio, 21% oxigênio, 1% árgon e outros gases inertes como o dióxido de carbono.
+           Os gases restantes são geralmente referenciados como "trace gases",
+            entre os quais se encontram os gases do efeito estufa como o vapor d'água,
+             dióxido de carbono, metano, óxido nitroso e ozônio. O ar filtrado inclui
+              pequenas quantidades de muitos outros compostos químicos.
+               O ar também contém uma quantidade variável de vapor d'água e
+                suspensões de gotas de água e cristais de gelo vistos como nuvens.
+                 Muitas substâncias naturais podem estar presentes em quantidades
+                  mínimas em amostras de ar não filtrado, incluindo poeira, pólen e esporos,
+                   maresia, cinzas vulcânicas e meteoroide. Vários poluentes industriais também podem estar presentes,
+                    como cloro (elementar ou em compostos), compostos de flúor, mercúrio na forma elementar,
+                     e compostos de enxofre como o dióxido de enxofre [SO²].</p>
+                     
+    </section>
+     <h1 id="biomas">Biomas</h1>
+    <section class="post">
+      <h2>Conceito</h2>
+      <img src="Biomes.jpg" alt="Biomas">
+      <p>A definição de bioma varia entre os autores.
+         O conceito foi criado em 1916 pelo ecólogo estadunidense Frederic Edward Clements,
+          originalmente como um sinônimo de comunidade biótica do professor alemão Karl August Möbius (1877).
+           Logo, surgiria a definição atual, baseada nos conceitos anteriores de fitofisionomia,
+            formação e vegetação (comumente usado em oposição a flora),
+             com a inclusão do elemento animal e a exclusão do elemento
+              taxonômico da composição de espécies (composição florística,
+               no caso de plantas).
+                Em 1935, o botânico inglês Arthur George Tansley incluiu aspectos cli
+                máticos e pedológicos (de solo) ao conceito, chamando-o, entretanto, de ecossistema. </p>
+    </section>
+     <section class="post">
+      <h2>Oceano Àrtico</h2>
+      <img src="IBCAO_betamap.jpg" alt="artico">
+      <p>O oceano Ártico (AO 1945: oceano Árctico),
+         localizado no Hemisfério Norte e em sua maioria na região polar ártica, 
+         é a menor, e mais rasa das cinco grandes divisões oceânicas do mundo.
+       A Organização Hidrográfica Internacional (OHI) reconhece o oceano Ártico como um oceano,
+        embora alguns oceanógrafos o chamem de mar Ártico Mediterrâneo ou simplesmente mar Ártico, 
+        classificando-o como um dos mares mediterrâneos do oceano Atlântico.
+       Por outro lado, o oceano Ártico pode ser visto como o lobo norte do oceano Mundial.
+       Quase completamente envolvida pela Eurásia e a América do Norte, o oceano Ártico é parcialmente 
+       coberto por gelo durante todo o ano (e quase completamente no inverno).
+       A temperatura e a salinidade do oceano Ártico variam sazonalmente quando a cobertura
+        de gelo derrete e congela; sua média de salinidade é a mais baixa em comparação aos
+         cinco grandes oceanos, devido à baixa evaporação, fluxo pesado de água doce de rios e córregos,
+         e conexão limitada com águas oceânicas de salinidade mais elevada.
+      No verão o nível do gelo diminui em 50%. O National Snow and Ice Data Center (NSIDC)
+       usa dados de satélite para fornecer um registro diário da cobertura de gelo do mar Ártico e a
+        taxa de fusão, em comparação a um período médio nos últimos anos.
+      </p>
+    </section>
+
+    <h1 id="clima da terra">Clima da terra</h1>
+    <section class="post">
+      <h1>Clima</h1>
+      <img src="clima.jpg" alt="climáticas">
+      <p>O clima (do grego para "inclinação",
+         referindo ao ângulo formado pelo eixo
+          de Rotação da Terra e seu plano de translação) 
+          compreende um padrão da atmosfera da Terra.
+           Fenômenos como frentes frias, tempestades, 
+           furacões e outros estão associados tanto às
+           variações meteorológicas preditas pelas leis físicas 
+           determinísticas, assim como a um conjunto de variações
+            aleatórias dos elementos meteorológicos (temperatura, 
+            precipitação, vento, umidade, pressão do ar), cuja principal
+             ferramenta de investigação é a estatística. As semelhanças em
+              várias regiões da Terra de tipos específicos caracterizam os 
+              diversos tipos de clima, para o que são consideradas as variações 
+              médias do tempo meteorológico ao longo das estações do ano num períod
+              o de não menos de 30 anos. Em suma, o clima corresponde ao comportamento médio dos
+               elementos atmosféricos num determinado lugar, durante, pelo menos, trinta anos. </p>
+    </section>
+     <section class="post">
+      <h2>Sistema climático</h2>
+      <img src="Climate-system.jpg" class="climas">
+      <p>
+      O sistema climático da Terra é um sistema complexo com cinco componentes que interagem entre si: a atmosfera (ar),
+       a hidrosfera (água), a criosfera (gelo e permafrost), a litosfera (camada rochosa superior da Terra)
+        e a biosfera (seres vivos).
+       Clima é a caracterização estatística
+        do sistema climático e é representado pelo tempo médio,
+         normalmente em um período de 30 anos, e é determinado por 
+         uma combinação de processos, como correntes oceânicas e padrões de vento.
+          A circulação na atmosfera e nos oceanos transporta o calor das regiões tropicais para regiões
+           que recebem menos energia do Sol. A irradiação solar é a principal força motriz dessa circulação.
+            O ciclo da água também movimenta energia por todo o sistema climático. Além disso, determinados 
+            elementos químicos estão em constante movimento entre os componentes do sistema climático. Dois 
+            exemplos desses ciclos biogeoquímicos são os ciclos do carbono e do nitrogênio.
+
+      O sistema climático pode mudar devido à variabilidade interna e a forças externas. Essas forças externas
+       podem ser naturais, como variações na intensidade solar e erupções vulcânicas, ou causadas por seres humanos.
+        O acúmulo de gases de efeito estufa na atmosfera, emitidos principalmente por meio da queima de combustíveis
+         fósseis, está causando a mudança climática. A atividade humana também libera aerossóis de resfriamento, mas
+          seu efeito líquido é muito menor do que o dos gases de efeito estufa. As mudanças podem ser amplificadas por
+           processos de feedback nos diferentes componentes do sistema climático.
+      </p>
+    </section>
+    <section class="post">
+      <h2>Ciclos bioquímicos</h2>
+      <img src="Carbon_cycle.jpg" alt="carbon">
+      <p>Elementos químicos, vitais para a vida,
+         passam constantemente pelos diferentes 
+         componentes do sistema climático.
+          O ciclo do carbono é especialmente 
+          importante para o clima, pois determina 
+          as concentrações de dois importantes gases
+           de efeito estufa na atmosfera: CO2 e metano.
+            Na parte rápida do ciclo do carbono, as plantas absorvem o dióxido de
+             carbono da atmosfera por meio da fotossíntese, que depois é reemitido
+              pela respiração dos seres vivos. Como parte do ciclo lento do carbono
+              , os vulcões libera CO2 por meio da desgaseificação, liberando dióxido de 
+              carbono da crosta e do manto da Terra.[38] Como o CO2 na atmosfera torna a chuva 
+              um pouco ácida, essa chuva pode dissolver lentamente algumas rochas, um processo
+               conhecido como intemperismo. Os minerais liberados dessa forma, transportados para o mar
+               , são usados por criaturas vivas cujos restos podem formar rochas sedimentares, trazendo
+                o carbono de volta à litosfera.
+      Sistema climático</p>
+    </section>
+    <section class="post">
+      <h2>Clima urbano</h2>
+      <img src="Financial_District,_Toronto.jpg" alt="urbano">
+      <p>Clima Urbano é o clima gerado e/ ou influenciado pela urbanização, que relaciona-se em mesoclima (cerca de centenas de metros) e microclima (parte pequena da cidade, alguns metros a dezena de metros), pela qual se encontra em processo contínuo de transformação de balanço de energia e massa, sendo considerado um sistema aberto. Geralmente analisados pela climatologia geográfica, em que aborda os elementos do clima em relação ao espaço em questão, ainda mais especificadamente como climatologia urbana.
+      Trabalhos como de Monteiro (1976) pela qual criou o Sistema Clima Urbano - S.C.U. vendo em vista a os problemas climáticos que haviam ocorrendo em São Paulo, criou metodologias e afirmando que terá necessário trata-lo como sistema devido a sua complexidade; e García (1995) trazem essa perspectiva mais recentemente, apesar de os trabalhos terem sido iniciados em Londres, Inglaterra e em relação a percepção das alterações climáticas nas cidades, remetem ao Império Romano.
+      Sua importância advém da possibilidade de um planejamento urbano adequado e conforto térmico aos citadinos. Os componentes analisados pelo Clima Urbano são: relevo, solo, declividade, a vegetação, disposição aquática, direção das vertentes, entre outros fatores. O estudo deste é dividido pelo porte da cidade: pequena, média e grande, sendo mais facilmente analisadas a de porte médio. Também é mais voltado para uma zona climática específica, no caso do Brasil, clima tropical e subtropical.
+      Recentemente, existem diversos trabalhos acadêmicos com este tema, ora com uma cidade específica ora com o próprio conceito, eventualmente associado a outros elementos.
+      
+      </p>
+    </section>
+    <h1 id="solo e vida">Solo</h1>
+    <section class="post">
+      <h2>Solo e vida</h2>
+      <img src="sons-de-floresta-ciclovivo.jpg" alt="floresta">
+      <p>O solo corresponde à decomposição de rochas que ocorre por meio de ações ligadas à temperatura,
+         como o calor, além de processos erosivos provenientes da ação dos ventos,
+          chuva e seres vivos, tais como bactérias e fungos.
+           Contudo, pode ser visto sobre diferentes óticas. 
+           Para um engenheiro agrônomo o solo é a camada na qual pode-se desenvolver vida (vegetal e animal).
+            Para um engenheiro civil, sob o ponto de vista da mecânica dos solos, 
+            solo é um corpo possível de ser escavado,
+             sendo utilizado dessa forma como suporte para construções ou material de construção.
+              Para um biólogo, através da ecologia e da pedologia,
+               o solo infere sobre a ciclagem biogeoquímica dos nutrientes
+                minerais e determina os diferentes ecossistemas e habitats dos seres vivos.</p>
+    </section>
+ <section class="post">
+      <h2>Solo da terra</h2>
+      <img src="-earth-section.jpg" alt="solo">
+      <p>Um solo possuí camadas horizontais de morfologia diferente entre si.
+         Essas camadas são chamadas de horizontes.
+          Essas camadas, apesar de todos as normas e técnicas,
+           dependem para sua delimitação em campo estritamente dos sentidos do pedólogo.
+        A soma destas camadas define o perfil do solo. Como a ação pedogenética, tal como
+         perturbação de seres vivos, infiltração de água, entre outros, é variável ao perfil,
+          é constante o desenvolvimento de alguns horizontes. Diz-se que quanto mais distante da rocha mãe,
+           mais intensa e/ou antiga foi a ação pedogenética. </p>
+    </section>
+       <section class="post">
+        <h2>Cultivo e conservação do solo</h2>
+        <img src="curvas-de-nivel.webp" alt="cultivo" class="cultivo">
+        <p>Existem diversas formas de cultivo na prática da agricultura:
+           plantio direto, rotação de culturas, curvas de nível e afolhamento.
+            Essa diversidade de técnicas existe em razão dos diferentes fins,
+             ora os agricultores priorizam a produtividade, ora priorizam a conservação dos solos. 
+             É preciso, pois, conhecer as diferentes formas de conservação do solo propiciadas por cada uma
+              dessas técnicas de cultivo.
+        O sistema de plantio direto, como 
+        o próprio nome sugere, baseia-se em realizar o
+         cultivo diretamente sobre o solo, aproveitando os restos orgânicos da colheita anterior.
+          Tal técnica é considerada agressiva, uma vez que não concede tempo para a reposição dos 
+          nutrientes perdidos pelo solo na colheita anterior e demanda o uso de uma quantidade maior de herbicidas.
+        Já no sistema de rotação de culturas ocorre uma alternância entre os tipos de produtos a serem cultivados. 
+        Tal alternância não pode ser realizada aleatoriamente, os produtos a serem cultivados devem possuir certa
+         demanda no mercado e proporcionar recuperações dos nutrientes do solo. É a técnica mais adequada para a
+          manutenção da qualidade das terras ou, pelo menos, para conter as agressões ambientais realizadas pela agricultura.
+        Outra boa técnica de cultivo do solo é a do terraceamento. Ela consiste em realizar a produção ordenando
+         a plantação em linhas que seguem as diferenças de altitude do solo. Essa técnica é mais adequada para
+          terrenos com declividades (morros, por exemplo) e ajuda a conter o processo de erosão dos solos.
+           Além disso, contribui para a contenção de água, pois, dessa forma, ela escorre mais devagar e tem 
+           maior chance de infiltrar na terra.
+        
+        </p>
+       </section>
+       <h1 id="celulas">Células</h1>
+    <section class="post">
+      <h2>Células</h2>
+      <img src="Wilson1900Fig2.jpg" alt="celula">
+      <p>As células são a unidade básica de estrutura em todos os seres vivos,
+         e todas as células surgem de células preexistentes por divisão. 
+         A teoria celular foi formulada por Henri Dutrochet, Theodor Schwann,
+          Rudolf Virchow e outros durante o início do século XIX e,
+           posteriormente, tornou-se amplamente aceita. A atividade de um organismo depende da atividade total de suas células,
+            com fluxo de energia ocorrendo dentro e entre elas.
+             As células contêm informações hereditárias que são transmitidas 
+             como um código genético durante a divisão celular.
+             Existem dois tipos principais de células.
+             Os procariontes não têm núcleo e outras organelas ligadas à membrana,
+             embora tenham DNA circular e ribossomos. Bactérias e arqueias são dois domínios
+              de procariontes. O outro tipo primário de células são os eucariotos,
+               que têm núcleos distintos ligados por uma membrana nuclear e organelas ligadas à membrana,
+                incluindo mitocôndrias, cloroplastos, lisossomas, retículo endoplasmático rugoso e liso e vacúolos.
+                 Além disso, eles possuem cromossomos organizados que armazenam material genético. 
+                 Todas as espécies de organismos grandes e complexos são eucariotos,
+                  incluindo animais, plantas e fungos,
+                   embora a maioria das espécies de eucariotos sejam microrganismos protistas.
+                    O modelo convencional é que os eucariotos evoluíram de procariotos, 
+                    com as organelas principais dos eucariotos formando-se por endossimbiose
+                     entre a bactéria e a célula eucariótica progenitora.</p>
+    </section>
+    <section class="post">
+      <h2>Estruturas das Células</h2>
+      <img src="-celula.webp" alt="celula">
+      <p>A célula é a menor unidade metabólica dos seres vivos, ou seja, é a menor unidade de vida.
+      Mesmo sozinha forma um ser vivo completo como, por exemplo, as bactérias e protozoários, organismos unicelulares. Quando em grupo formam organismos pluricelulares, tais como: plantas, animais, etc.
+      A célula tem todo o material necessário para realizar processos vitais, como nutrição, liberação de energia e reprodução.
+      O ser humano é constituído de cerca de 100 trilhões de células, sendo o óvulo a maior delas, possui, aproximadamente, o diâmetro de um ponto final.
+      Cultivo e conservação do solo
+      A células que formam a maioria dos seres vivos apresentam uma membrana envolvendo o seu DNA, por este motivo são chamadas de células eucariotas. A célula eucariota é constituída de membrana plasmática, citoplasma e núcleo.
+      </p>
+    </section>
+   
+    <section class="galeria-slides">
+      <h2 id="galeria da natureza">Galeria da natureza</h2>
+      <div class="carousel">
+        <button class="anterior">&#10094;</button>
+        <div class="slide-container" id="slide-container">
+          <div class="slide ativo"><img src="natureza.jpg" alt="natureza"></div>
+          <div class="slide"><img src="13951373-incrivel-paisagem-natural-bela-cena-.jpg" alt="paisagem"></div>
+          <div class="slide"><img src="feche-o-retrato.avif" alt="retrato"></div>
+          <div class="slide"><img src="Rainbow_over_Bristol.jpg" alt="Rainbow"></div>
+          <div class="slide"><img src="evolucao.jpg" alt="broto"></div>
+          <div class="slide"><img src="montanhas.jpeg" alt=""></div>
+        </div>        
+        <button class="proximo">&#10095;</button>
+      </div>
+    </section>
+   </main>
+  </main>
+   <hr>
+<footer>
+    <p>&copy; 2025 Meu Blog. Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    function alternarTema() {
+      document.body.classList.toggle('escuro');
+    }
+  </script>
+  <script>
+    let slideAtual = 0;
+    const slides = document.querySelectorAll('.slide');
+    const anteriorBtn = document.querySelector('.anterior');
+    const proximoBtn = document.querySelector('.proximo');
+  
+    function mostrarSlide(index) {
+      slides.forEach(slide => slide.classList.remove('ativo'));
+      slides[index].classList.add('ativo');
+    }
+  
+    anteriorBtn.addEventListener('click', () => {
+      slideAtual = (slideAtual - 1 + slides.length) % slides.length;
+      mostrarSlide(slideAtual);
+    });
+  
+    proximoBtn.addEventListener('click', () => {
+      slideAtual = (slideAtual + 1) % slides.length;
+      mostrarSlide(slideAtual);
+    });
+  
+    // Inicia mostrando o primeiro slide
+    mostrarSlide(slideAtual);
+
+    setInterval(() => {
+  proximoBtn.click();
+}, 5000); // 5000 = 5 segundos
+
+
+
+  </script>
+  <script>
+    document.getElementById('form-busca').addEventListener('submit', function(event) {
+      event.preventDefault();
+  
+      const termo = document.getElementById('campo-busca').value.toLowerCase().trim();
+      const titulos = document.querySelectorAll('h1');
+      let encontrado = false;
+  
+      titulos.forEach(titulo => {
+        const textoTitulo = titulo.textContent.toLowerCase();
+        if (textoTitulo.includes(termo) && !encontrado) {
+          titulo.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          encontrado = true;
+        }
+      });
+  
+      if (!encontrado) {
+        alert('Nenhum título encontrado com esse termo.');
+      }
+    });
+  </script>
+  <script>
+    const curiosidades = [
+      "🌿 As plantas 'respiram' o tempo todo, inclusive à noite.",
+      "🌎 Os oceanos cobrem 71% da superfície da Terra.",
+      "🧬 Os humanos compartilham cerca de 60% do DNA com bananas!",
+      "🍄 Os fungos estão mais próximos dos animais do que das plantas.",
+      "☁️ A atmosfera da Terra se estende por mais de 10.000 km, mas 75% da massa está nos primeiros 11 km.",
+      "🐝 Abelhas comunicam a localização de flores dançando em forma de 8.",
+      "🌲 Árvores se comunicam entre si por meio de redes subterrâneas de fungos (a 'internet da floresta')."
+    ];
+  
+    const divCuriosidade = document.getElementById('curiosidade-aleatoria');
+    const aleatoria = curiosidades[Math.floor(Math.random() * curiosidades.length)];
+    divCuriosidade.innerHTML = `<p>${aleatoria}</p>`;
+  </script>
+  
+  
+</body>
+</html>

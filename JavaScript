@@ -1,0 +1,13 @@
+<script>
+  function mostrarPagina(id) {
+    // esconde todos os artigos com a classe "pagina"
+    const paginas = document.querySelectorAll('.pagina');
+    paginas.forEach(pagina => pagina.style.display = 'none');
+
+    // mostra só o artigo correspondente ao id clicado
+    const paginaAtiva = document.getElementById(id);
+    if (paginaAtiva) {
+      paginaAtiva.style.display = 'block';
+    }
+  }
+</script>
